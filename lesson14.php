@@ -1,5 +1,5 @@
     <?php
-    $svetofor = "red";
+    $svetofor = "yellow";
         /*if ($svetofor == "green") {
             echo "зелёный";
         } else{
@@ -8,16 +8,16 @@
 
     ?> */
     switch ($svetofor) {
-    case "green";
+        case "green":
     echo "Светофор зеленый, я перехожу";
     break;
-    case "yellow";
+        case "yellow":
     echo "Сейчас светофор желтый";
     break;
-    default;
+        default:
     echo "Жду когда загорится зеленый";
     break;
     }
 ?>
-    
+
 
